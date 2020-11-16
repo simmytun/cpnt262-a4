@@ -1,7 +1,13 @@
 // Asynchronous fetch(): request the JSON array from the new JSON endpoint using fetch().
-//fetch(`${window.location.origin}/api/v0/gallery`)
+
+
+
+
 fetch(`${window.location.origin}/api/v0/gallery`)
   .then(function(response) {
+
+
+    
     // JSON 'data' returned from server
     //We need to convert it in a Javascript object
     return response.json();
