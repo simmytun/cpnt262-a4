@@ -1,7 +1,7 @@
 const path = require('path');
 const express = require('express');
 const ejs = require('ejs');
-
+require('dotenv').config()
 const music = require('./music');
 
 const app = express();
