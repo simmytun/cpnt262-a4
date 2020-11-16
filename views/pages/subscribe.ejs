@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="module" src="Js/client.js"></script>
+</head>
+
+<body class=<%= current %>>
+  <%- include('../partials/header'); %>
+  <main>
+
+    <h1 class="title"><%= title %></h1>
+
+    <form action="/subscribers" method="post">
+    
+    <div class="form_wrapper">
+      <div class="form_input">
+        <p>
+        
+          <input type="text" id="name" name="name" placeholder="What do we call you?">
+      </p>
+      <p>
+        
+        <input type="email" id="email" name="email" placeholder="Please enter an email">
+      </p>
+
+
+      <footer>
+        <button type="submit">Submit</button>
+      </footer>
+    
+
+    
+    
+
+
+      
+      
+    
+    
+  </form>
+</main>
+<%- include('../partials/footer'); %>
+    
+    
+  </body>

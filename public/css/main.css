@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Satisfy&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Righteous', cursive;
+	color: black;
+  }
+
+
+  .wrapper {
+	display: flex;
+	flex-direction: column;
+	
+	min-height: 100vh;
+  }
+
+  .wrapper main {
+	  flex: 1;
+	  margin: 0 auto;
+	  width: 50ch;
+  }
+
+ main p {
+	letter-spacing: 2px;
+	margin-top: 2rem;
+
+
+}
+
+
+  header {
+	  display: flex;
+	  justify-content: flex-end;
+	  align-items: center;
+	  padding: 30px 40px;
+	  
+  }
+
+  .navbar {
+	  list-style: none;
+	  
+	
+
+  }
+
+  .navbar ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	padding: 15px 5px;
+	transition: .3s;
+  }
+
+  .navbar ul li a:active {
+	background-color: wheat;
+	border-radius: 2px;
+  }
+  
+  .navbar ul li a:hover {
+	background-color: wheat;
+	border-radius: 2px;
+  }
+
+.navbar li {
+	display: inline-block;
+	padding: 0px 20px;
+	text-transform: uppercase;
+
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+	font-size: 45px;
+	color: black;
+}
+
+footer {
+	background: whitesmoke;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	margin-top: 2rem;
+
+}
+
+.form_wrapper {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	min-height: 100vh;
+	justify-content: center;
+	
+	align-items: center;
+	margin: 0 auto;
+	
+
+}
+
+.title {
+	text-align: center;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin :auto;
+	grid-template-columns: repeat(auto-fill, minmax(50ch, 50ch));
+	padding: 4rem;
+  
+	/* maximum width limit */
+	max-width: 1500px;
+  }
+  
+  .card {
+	  display: flex;
+	  flex-wrap: wrap;
+	  font-size: 16px;
+	  border: 1px solid grey; 
+	  justify-content: center;
+	  text-align: center;
+
+
+	  /* set all images to max width*/
+	  max-width: 350px;
+	  min-width: 350px;
+	  min-height: 100%;
+	  
+	  
+  }
+  
+  
+  img {
+   object-fit: cover;
+
+   align-self: center;
+	
+   width: 100%;
+	
+   min-height: 200px;
+   max-height: 200px;
+   
+   
+  }
+  
+
+  
+ 
